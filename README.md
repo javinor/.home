@@ -4,12 +4,12 @@ To install on a new machine:
 
 Install git via [Homebrew](http://brew.sh):
 ```bash
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install git
 ```
 clone this repo and deploy symbolic links:
 ```bash
-git clone https://github.com/danyshaanan/.home.git ~/.home
+git clone https://github.com/javinor/.home.git ~/.home
 
 ln -s ~/.home/.bash_profile ~/.bash_profile
 ln -s ~/.home/.bashrc ~/.bashrc
