@@ -12,6 +12,11 @@ brew info osxfuse
 The last command will output two lines, starting with `sudo /bin/cp` and `sudo chmod`. Run those.
 
 
+# CPU temp & battery details
+
+```bash
+gem install iStats
+```
 
 # MongoDB
 
